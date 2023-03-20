@@ -5,7 +5,7 @@ var __path = process.cwd(),
 // Connection URL
 var url = 'https://web-production-9bce8.up.railway.app';
 try {
-if(url == 'https://web-production-9bce8.up.railway.app') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
+if(url == 'https://web-production-9bce8.up.railway.apps') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
